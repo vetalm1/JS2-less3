@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--не забывай долбаный вьюпорт, нужен при адаптиве-->
+    <title>eShop</title>
+    <link rel="stylesheet" href="css/normalize.css"> <!--сначала нормалайз-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-menu">
+        <form class="search-form">
+           <input class="goods-search" type="text">
+           <button type="submit" class="search-button">Искать</button>
+        </form>    
+        <button class="cart-button">Корзина</button>    
+    </header>
+    <main>
+        <div class="goods-list"></div> <br>
+        <h2>Список товаров к покупке</h2>
+        <div class="cart-list"></div>
+    </main>
+<script src="js/script.js"></script>
+</body>
+</html>
